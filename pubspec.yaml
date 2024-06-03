@@ -1,0 +1,75 @@
+name: todoist
+description: "A new Flutter project."
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.4.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Utility Packages
+  http: ^1.2.0
+  intl: ^0.19.0
+  shimmer: ^3.0.0
+  fluttertoast: ^8.2.5
+  url_launcher: ^6.2.5
+  connectivity_plus: ^5.0.1
+  flutter_native_splash: ^2.3.1
+  smooth_page_indicator: ^1.1.0
+
+  # Icons and assets
+  lottie: ^3.1.0
+  cupertino_icons: ^1.0.6
+  iconsax: ^0.0.8
+
+  # State Management
+  get: ^4.6.6
+  get_storage: ^2.1.1
+
+  # Firebase
+  firebase_core: ^2.32.0
+  firebase_auth: ^4.20.0
+  cloud_firestore: ^4.17.5
+  google_sign_in: ^6.2.1
+  flutter_launcher_icons: ^0.13.1
+  uuid: ^4.4.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/logos/
+    - assets/images/animations/
+    - assets/images/on_boarding_images/
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/logos/app.png"
+  adaptive_icon_background: "#FFFFFF"
+  adaptive_icon_foreground: "assets/logos/logo_foreground.png"
+
+flutter_native_splash:
+  color: "#FFFFFF"
+  color_dark: "#272727"
+  image: assets/logos/app.png
+  image_dark: assets/logos/app.png
+
+  android_12:
+    color: "#FFFFFF"
+    color_dark: "#272727"
+    image: assets/logos/app.png
+    image_dark: assets/logos/app.png
+
+  web: false
