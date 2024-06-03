@@ -1,4 +1,4 @@
-# Todoist Clone with Flutter, Firebase, and GetX MVC
+# Todoist with Flutter, Firebase, and GetX MVC
 
 ## Overview
 
