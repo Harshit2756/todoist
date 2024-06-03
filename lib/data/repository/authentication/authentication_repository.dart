@@ -178,7 +178,9 @@ class AuthenticatorRepository extends GetxController {
       // Sign in to Firebase with the Google [UserCredential]
       return await _auth.signInWithCredential(credentials);
     } catch (e) {
-      print(e);
+      if (kDebugMode) {
+        print(e);
+      }
       rethrow;
     }
   }

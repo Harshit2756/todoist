@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:get/get.dart';
 import 'package:todoist/data/repository/todo/todo_repository.dart';
 import 'package:todoist/features/todo/model/todo_model.dart';

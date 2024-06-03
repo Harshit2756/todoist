@@ -1,3 +1,4 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
@@ -123,7 +124,9 @@ class LoginController extends GetxController {
       AuthenticatorRepository.instance.screenredirect();
     } catch (e) {
       HFullScreenLoader.stopLoading();
-      print(e);
+      if (kDebugMode) {
+        print(e);
+      }
       HLoarders.errorSnackBar(title: 'Oh Snap!', message: 'error: $e');
     }
   }

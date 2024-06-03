@@ -1,16 +1,50 @@
-# todoist
+# Todoist Clone with Flutter, Firebase, and GetX MVC
 
-A new Flutter project.
+## Overview
 
-## Getting Started
+This project is a clone of the popular task management app, Todoist. It's built using Flutter for the frontend, Firebase for the backend, and GetX MVC for state management.
 
-This project is a starting point for a Flutter application.
+## Prerequisites
 
-A few resources to get you started if this is your first Flutter project:
+- Flutter SDK
+- Dart SDK
+- Firebase account
+- An IDE like VS Code or Android Studio
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Setup Instructions
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. **Clone the repository**
+   - Open your terminal and run: `git clone https://github.com/Harshit2756/todoist.git`
+
+2. **Navigate into the project directory**
+   - Run: `cd todoist`
+
+3. **Get Flutter packages**
+   - Run: `flutter pub get`
+
+4. **Setup Firebase**
+   - Go to the Firebase console and create a new project.
+   - Follow the instructions to add Firebase to your Flutter app for both Android and iOS.
+   - Enable Email/Password authentication in the Firebase console under the Authentication section.
+   - Create a Firestore database.
+
+5. **Run the app**
+   - Run: `flutter run`
+
+## Features
+
+- User Authentication (Login/Register)
+- Task CRUD operations
+- Realtime updates with Firestore
+
+## Project Structure
+
+The project follows the MVC pattern with GetX. The `controllers` directory contains all the controllers for the app. The `models` directory contains the data models. The `views` directory contains the UI of the app.
+
+## Contributing
+
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)

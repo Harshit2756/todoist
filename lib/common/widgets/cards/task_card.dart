@@ -2,7 +2,6 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:todoist/features/todo/controller/home_controller.dart';
 import 'package:todoist/features/todo/model/todo_model.dart';
-import 'package:todoist/utils/formatters/formatter.dart';
 import 'package:todoist/utils/helpers/helper_functions.dart';
 
 import '../../../utils/constants/colors.dart';
