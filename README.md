@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project is a clone of the popular task management app, Todoist. It's built using Flutter for the frontend, Firebase for the backend, and GetX MVC for state management.
+This project is a simple Todo app, Todoist. It's built using Flutter for the frontend, Firebase for the backend, and GetX for state management,MVC Architecture
 
 ## Prerequisites
 
